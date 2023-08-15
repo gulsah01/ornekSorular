@@ -9,5 +9,25 @@ public class soru3slayt153 {
                 Ornek : input : 16, output: 4
 
         */
+        Scanner scanner;
+        int sayi;
+        boolean b = false;
+        do {
+            scanner = new Scanner(System.in);
+            System.out.println("lutfen bir sayi girin");
+            sayi = scanner.nextInt();
+            for (int i = 1; i <= sayi; i++) {
+                if (sayi / i == i) {
+                    b = true;
+                }
+            }
+            if (b==true) {
+                System.out.println(true);
+            } else {
+                System.out.println(false);
+            }
+        } while (b == true);
 
-    }}
+
+    }
+}
