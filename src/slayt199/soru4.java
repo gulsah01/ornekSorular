@@ -1,12 +1,11 @@
 package slayt199;
 import java.util.Arrays;
 //Soru 4-Verilen 2 katli bir array’de bulunan
-// tum sayilarin carpinini bize donduren bir method olusturun.
+// tum sayilarin carpimini bize donduren bir method olusturun.
 public class soru4 {
     public static void main(String[] args) {
-        int[][] arr = {{3, 1, 2, 4}, {1, 2},{9}};
-        int sonuc=sayilarinCarpiminibul(arr);
-        System.out.println(sonuc);
+        int[][] arr = {{3,1,2,4},{1,2},{3,4,5},{10},{2,7}};
+        System.out.println(sayilarinCarpiminibul(arr));
     }
     private static int sayilarinCarpiminibul(int[][] arr) {
         int carpim=1;
