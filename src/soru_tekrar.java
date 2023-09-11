@@ -24,5 +24,7 @@ ayri bir liste olarak veren bir program yazin.
         System.out.println(isim);
         System.out.println("aranan karakter :" + karakter);
         System.out.println(sayac + " kere kullanılmıştır");
+
+
     }
 }
