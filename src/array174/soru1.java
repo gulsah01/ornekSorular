@@ -18,6 +18,7 @@ public class soru1 {
             arr[i]=arr[i]+2;
 
         }
+
         return arr;
     }
 
